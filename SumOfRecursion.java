@@ -5,19 +5,19 @@ public class SumOfRecursion {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println(getLLessThanN(876, 8,7,6)); //input 876  -> output : 599 
- /*  * * * *
+ /*        * 
+  *  	 * *
   *    * * *
-  *      * *
-  *        *
+  *  * * * *
   *        
   *     Solution for Above Pattern
   * */
 
-		for (int i = 5; i >= 1; i--) {
-			for (int j = 5; j > i; j--) {
+		for (int i = 0; i <=4; i++) {
+			for (int k = 4; k >=i ; k--) {
 				System.out.print(" ");
 			}
-			for (int k = 1; k <= i; k++) {
+			for (int j = 0; j<=i; j++) {
 				System.out.print("*");
 			}
 			System.out.println();
@@ -73,6 +73,7 @@ public class SumOfRecursion {
 	     else
 	         return primes(x, i-1);
 	 }
+	 
 	 //sum of digits of a number using recursion 
 	 /* int sum = 0;
 	    public static void main(String[] args) 
@@ -98,5 +99,6 @@ public class SumOfRecursion {
 	        }
 	 
 	    }*/
+	 //
 	  
 }
